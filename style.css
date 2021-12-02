@@ -1,0 +1,291 @@
+* {
+	box-sizing: border-box;
+		}	
+	h1 {
+		color: white;
+		display: inline-block;
+		padding-top: 10px;
+		padding-left: 10px;
+		margin: 0px;
+		font-size: 17pt;
+		font-family: font-family 'Comfortaa', cursive; 
+		float: left;
+		}
+	h1 a {
+		text-decoration:none;
+		color:whitesmoke;
+		}
+	h2 {
+		text-align: left;
+		color: #cedcee;
+		font-size: 50pt;
+		padding: 100px 150px;
+		margin: 0px;
+		font-family: 'Comfortaa', cursive;
+		background-image:url(resources2/h1-bg.jpg); 
+		}
+	.titlu-ev {
+		text-align: center;
+		color: #cedcee;
+		font-size: 75pt;
+		padding: 100px 150px;
+		margin: 0px;
+		font-family: 'Nova Flat', cursive;
+		background-image:url(resources2/h1-bg.jpg);
+	}
+	h3 {
+		text-align: center;
+		color: whitesmoke;
+		font-weight: none;
+		font-size: 20pt;
+		}
+	h4 {
+		text-align: center;
+		background-color: #001422;
+		color: LightBlue;
+		font-size: 25pt;
+		font-family: 'Nova Flat', cursive;
+		border-style: solid;
+		border-bottom-color: #5dd3fe;
+		border-top-color: #5dd3fe;
+		}	
+	h5 {
+		text-align: center;
+		color: #cedcee;
+		font-size: 20pt;	
+		padding:25px;
+		font-family: 'Comfortaa', cursive; 
+		}	
+	h6 {
+		text-align: center;
+		color: #cedcee;
+		font-size: 15pt;	
+		font-family: 'Comfortaa', cursive; 	
+		border-bottom-style: double;
+		border-bottom-color: #5dd3fe;
+		padding-bottom:10px;
+		background-color: black;
+		background-color:transparent;
+		}
+	body {
+		background-image: url(resources2/blue-bg-min2.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		font-family: 'Comfortaa', cursive;
+		padding: 25px;
+		}
+	
+
+	nav {
+		height: 60px;
+		background-image: linear-gradient(to right, black, #002741, #331E3F);
+		background-color: #062843;
+		font-family: 'Comfortaa', cursive;
+		padding:10px 10px 0px 10px;
+		text-align:right;
+		margin:0px;
+		}
+	
+	nav img {
+		padding-top: 0px;
+		width: 50px;
+		display: inline-block;
+		float:left;
+		margin:0px;
+		}
+	nav ul {
+		margin:0px;
+		vertical-align: 150%;
+		font-size: 13pt;
+		display: inline-block;	
+		padding:30px 10px 10px 30px;
+	
+	}
+	.meniu {
+		display: inline-block;
+		margin:0px;
+		padding:7px 10px 0px 5px;	
+	}
+	.meniu li {
+		display: inline-block;
+	}
+	.buton {
+		padding: 5px 15px;
+		display: inline-block;
+		float: left;
+		margin:0px;
+		}
+	.buton a {
+		text-decoration:none;
+		color:whitesmoke;	
+		}
+	.buton:hover {
+		background-color:#422045;
+		}
+	main {
+		padding-top: 50px;
+		padding-left: 10px;
+		height: auto;
+		text-align:justify;
+		}
+	p {
+		font-size: 15pt;
+		color: #e7edf7;
+		}		
+	main div::after {
+		content:"";
+		clear: both;
+		display:table; 
+		}	
+	.pe-treime {
+		float:left;
+		width: 33%
+		}
+	.secțiune {
+		background-color: none;
+		padding-top: 35px;
+		padding-left: 110px;
+		padding-right: 110px;
+		border: none;
+		} 
+	
+	.poza:hover {
+		opacity: 0.5;
+	}
+	
+	main a:link {
+		color: white;
+		background-color: transparent;
+		text-decoration: none;
+		}
+	main a:visited {
+		color: #5dd3fe;
+		background-color: transparent;
+		text-decoration: none;
+		}
+	
+	main a:active {
+		color: red;
+		background-color: transparent;
+		text-decoration: underline;
+		}
+
+	body section {
+		color: white;
+		padding-left: 130px;
+		}		
+	.footer {
+		padding: 3px;
+		text-align: center;
+		color: white;
+		}
+	footer p {
+		font-size: 10pt;
+		text-align:center;
+		}
+	footer img {
+		width:50px;
+		float: center;
+		color: white;
+	}
+	footer div {
+		text-align: center;
+	}
+
+	.contact-bg {
+		background-color:#001422;
+		padding: 15px;
+}
+	.meniu {
+		display: inline-block;
+		margin:0px;
+		padding:7px 10px 0px 5px;	
+	}
+	.meniu li {
+		display: inline-block;
+	}
+	.buton {
+		padding: 5px 15px;
+		display: inline-block;
+		float:left;
+		margin:0px;
+		}
+	.buton a {
+		text-decoration:none;
+		color:whitesmoke;	
+		}
+	.buton:hover {
+		background-color:#422045;
+		}
+
+@media screen and (max-width: 600px) {
+	
+}
+/* Float four columns side by side */
+.column {
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+	  margin-left: 250px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+	text-align: center;
+  }
+  
+  /* Style the counter cards */
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+	padding: 10px;
+  	text-align: center;
+	margin:0px;
+}
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	  display: in-line-block;
+	  height: 200px;
+	}
+  }
+	.img {
+	  width:100%;
+	  }
+	.servicii {
+		text-align: center;
+	}
+	.gallery {
+		margin: 55px;
+		border: 1px solid LightBlue;
+		float: left;
+		width: 350px;
+	  }
+	  .gallery img {
+		width: 100%;
+		height: 100%;
+	  }
+	.gallery:hover {
+		border: 1px solid #017bcd;
+	  }
+	.gallery p {
+		padding:10px;
+		text-align: justify;
+	}
+	.tipuri {
+		font-size: 18pt;
+	}
+	.additional {
+		text-align: center;
+	}
+	.additional {
+		text-align:center;
+	}
